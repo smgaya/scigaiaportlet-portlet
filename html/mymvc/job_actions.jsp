@@ -9,6 +9,7 @@
 ResulRow row = (ResultRow)request.getAttribute(WebKeys.SEARCH_CONTAINER_RESULT_ROW);
 Job job = (Job)row.getObject();
 int jobid =Job.getid();
+
 %>
 <portlet:actionURL name="deleteJob" var="deleteJobURL">
 	<portlet:param name="jobid" value="3"/>
